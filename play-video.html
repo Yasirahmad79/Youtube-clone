@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube/PlayVideo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left flex-div">
+            <img src="/images/menu.png" class="icon">
+            <img src="/images/logo.png" class="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-input flex-div">
+                <input type="text" placeholder="Search">
+                <a href="#" class="search-icon"><img src="/images/search.png"></a>
+            </div>
+            <a href="#" class="voice-icon"><img src="/images/voice-search.png"></a>
+        </div>
+        <div class="nav-right flex-div">
+            <a href=""><img src="/images/upload.png"></a>
+            <a href=""><img src="/images/more.png"></a>
+            <a href=""><img src="/images/notification.png"></a>
+            <a href="/search.html"><img src="/images/search.png" id="searchToggle"></a>
+            <a href="" class="jack-img"><img src="/images/yasir.jpg"></a>
+        </div>
+    </nav>
+    <!-- play Video part -->
+    <div class="container container-video">
+        <div class="row">
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="images/video.mp4" type="video/mp4">
+                </video>
+                <div class="hash-tag">
+                   <a href="">#Coding </a> <a href=""> #HTML</a><a href=""> #javascrpt</a><a href=""> #Phython</a>
+                </div>
+                <h3>Best Video to Discover Sea valley in kalaam</h3>
+                <div class="play-vid-info">
+                    <p>700k views &bull; 2 days ago</p>
+                    <div class="flex-div">
+                        <a href=""><img src="images/like.png"> 20k</a>
+                        <a href=""><img src="images/dislike.png">2</a>
+                        <a href=""><img src="images/share.png">Share</a>
+                        <a href=""><img src="images/save.png">save</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="publisher">
+                    <img src="/images/yasir.jpg">
+                    <div>
+                        <p>Learn with Yasi </p>
+                        <span> 567k Subscribers</span>
+                    </div>
+                    <button type="button" id="btn">Subscribe</button>
+                </div>
+                <div class="vid-description">
+                    <p>Channel that makes Learning Easy</p>
+                    <p>Subscribe Learn with Yasi channel to see more interesting videos about web development</p>
+                    <hr>
+                    <h4>156 comments</h4>
+                    <div class="add-comment">
+                        <img src="images/yasir.jpg">
+                        <input type="text" placeholder="write comment...">
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/Jack.png">
+                        <div>
+                            <h3>Jack Nicholson <span>4 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus beatae non deleniti. Ad autem, explicabo possimus inventore officiis qui! Nobis quia deserunt, illum odio provident dignissimos itaque dolor dolores eligendi dolorem voluptatum minima!</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <a href=""><img src="images/like.png">156</a>
+                        <a href=""><img src="images/dislike.png">2</a>
+                        <a href="#" class="follow-color">Follow</a>
+                        <a href="#" class="follow-color">All Follow</a>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/cameron.png">
+                        <div>
+                            <h3>cameron <span>3 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus beatae non deleniti. Ad autem, explicabo possimus inventore officiis qui! Nobis quia deserunt, illum odio provident dignissimos itaque dolor dolores eligendi dolorem voluptatum minima!</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <a href=""><img src="images/like.png">246</a>
+                        <a href=""><img src="images/dislike.png">2</a>
+                        <a href="#" class="follow-color">Follow</a>
+                        <a href="#" class="follow-color">All Follow</a>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/tom.png">
+                        <div>
+                            <h3>Tom Hardy <span>3 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus beatae non deleniti. Ad autem, explicabo possimus inventore officiis qui! Nobis quia deserunt, illum odio provident dignissimos itaque dolor dolores eligendi dolorem voluptatum minima!</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <a href=""><img src="images/like.png">246</a>
+                        <a href=""><img src="images/dislike.png">2</a>
+                        <a href="#" class="follow-color">Follow</a>
+                        <a href="#" class="follow-color">All Follow</a>
+                    </div>
+                    <div class="old-comment">
+                        <img src="images/megan.png">
+                        <div>
+                            <h3>Megan <span>3 days ago</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ducimus beatae non deleniti. Ad autem, explicabo possimus inventore officiis qui! Nobis quia deserunt, illum odio provident dignissimos itaque dolor dolores eligendi dolorem voluptatum minima!</p>
+                        </div>
+                    </div>
+                    <div class="comment-action">
+                        <a href=""><img src="images/like.png">246</a>
+                        <a href=""><img src="images/dislike.png">2</a>
+                        <a href="#" class="follow-color">Follow</a>
+                        <a href="#" class="follow-color">All Follow</a>
+                    </div>
+                </div>
+
+                <!-- ------------fon only small screen it will be visible------- -->
+                <div class="only-sm">
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail1.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail2.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail3.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail4.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail5.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail6.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail7.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail8.png"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail9.jpg"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail10.jpg"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="suggested-video-list">
+                        <a href="" class="small-thumbnail"><img src="images/thumbnail11.jpg"></a>
+                        <div class="vid-info">
+                            <a href="">Best video to visit amazing sea valley</a>
+                            <p id="top-margin">Learn with Yasi</p>
+                            <p>1M+ Views &bull; 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------fon only small screen it will be visible------- -->
+
+            </div>
+            <div class="right-sidebar">
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail1.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail2.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail3.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail4.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail5.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail6.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail7.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail8.png"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail9.jpg"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail10.jpg"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+                <div class="suggested-video-list">
+                    <a href="" class="small-thumbnail"><img src="images/thumbnail11.jpg"></a>
+                    <div class="vid-info">
+                        <a href="">Best video to visit amazing sea valley</a>
+                        <p id="top-margin">Learn with Yasi</p>
+                        <p>1M+ Views &bull; 1 week ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+<!-- //link javascrpt.....// -->
+<script src="/jquery-3.6.4.min.js"></script>
+<script src="/script.js"></script>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search page</title>
+    <style>
+        .search-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 13rem;
+            margin: auto;
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+        }
+        .search-box .search-input{
+            display: flex;
+            align-items: center;
+        }
+        .search-box .search-input input{
+            width: 10rem;
+            padding: 0.5rem;
+            border: none;
+            outline: none;
+        }
+        .search-box .search-input img{
+            width: 0.6rem;
+            margin-right: 0 0.6rem;
+        }
+        .search-box .voice-icon{
+            width: 0.6rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search-box">
+        <div class="search-input">
+            <input type="text" placeholder="Search">
+            <a href="#" class="search-icon"><img src="/images/search.png"></a>
+        </div>
+        <a href="#"><img src="/images/voice-search.png" class="voice-icon"></a>
+    </div>
+</body>
+
+</html>
